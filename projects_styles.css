@@ -53,7 +53,7 @@ body {
 
 #message-container {
     padding: 10px;
-    height: 150px;
+    height: 100px;
 }
 p {
     margin: 5px 0;
@@ -146,4 +146,13 @@ p {
     .nav a {
         padding: 8px 10px;
     }
+
+    #message-container {
+        padding: 20px;
+        height: 200px;
+    }
+    p {
+        margin: 10px 0;
+    }
+    
 }
