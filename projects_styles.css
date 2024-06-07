@@ -51,8 +51,12 @@ body {
     padding: 10px;
 }
 
-.message-container {
-    height: 200px;
+#message-container {
+    padding: 10px;
+    height: 100px;
+}
+p {
+    margin: 5px 0;
 }
 
 #rand_message_button {
