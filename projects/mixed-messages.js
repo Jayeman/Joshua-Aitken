@@ -8,7 +8,7 @@ const messages = ["You can do this!",
     "It's just a rough patch", 
     "You only fail if you give up!", 
     "Every failure is a success, as long as you learn!"
-]
+];
 
 const quotes = ["It takes courage to grow up and become who you really are -E.E.Cummings", 
     "You're self worth is determined by you! -Beyonce", 
@@ -17,9 +17,10 @@ const quotes = ["It takes courage to grow up and become who you really are -E.E.
     "Attitude is a little thing that makes a big difference. -Winston Churchill", 
     "All our dreams can come true, if we have the courage to pursue them. -Walt Disney", 
     "Don't sit down and wait for the opportunities to come. Get up and make them. -Madam C.J.Walker", 
-    "Champions keep playing until they get it right. -Billi Jean King", 
+    "Champions keep playing until they get it right. -Billie Jean King", 
     "You are never too old to set another goal or to dream a new dream. -C.S.Lewis", 
-    "It is during our darkest moments that we must focus to see the light. -Aristotle"]
+    "It is during our darkest moments that we must focus to see the light. -Aristotle"
+];
 
 const motivations = ["Just take a break!", 
     "Relax, and try again tomorrow!", 
@@ -30,7 +31,8 @@ const motivations = ["Just take a break!",
     "Take a break and enjoy life!", 
     "You must disconnect to reconnect!", 
     "Calm is a superpower. Don't let stress kill your happiness!", 
-    "For the love of your work take a break!", ]
+    "For the love of your work take a break!" 
+];
 
     function getRandomItemFromArray(arr) {
         return arr[Math.floor(Math.random() * arr.length)];
