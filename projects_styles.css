@@ -36,10 +36,28 @@ body {
 }
 
 /* Desktop view */
-.row-1 {
+.project-1 {
+    color: white;
+    border: solid black 2px;
+    text-align: center;
     display: grid;
     grid-template-columns: 1fr;
     width: 100%;
+}
+
+.project-1 h1 {
+    margin-bottom: 10px;
+    border-bottom: solid black 2px;
+    padding: 10px;
+}
+
+.message-container {
+    height: 200px;
+}
+
+#rand_message_button {
+    font-size: 25px;
+    font-weight: bold;
 }
 
 /* Row 1 */
