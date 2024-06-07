@@ -145,12 +145,13 @@ body {
 }
 
 .skills li {
+    display: inline-flex;
     list-style: none;
     padding: 5px;
 }
 
-.skills a:hover {
-    background-color: rgb(87, 87, 87);
+.skills li img {
+    width: 100px;
 }
 
 /* Tablet view (landscape) */
